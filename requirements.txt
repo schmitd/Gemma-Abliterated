@@ -11,6 +11,12 @@ sentencepiece>=0.1.99
 safetensors>=0.4.2
 typeguard>=2.13.3
 
+# Finetuning
+peft
+trl
+bitsandbytes
+accelerate
+
 # Abliterator from GitHub (editable)
 -e git+https://github.com/FailSpy/abliterator.git@main#egg=abliterator
 
