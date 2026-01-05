@@ -1,0 +1,7 @@
+---
+description: Shortens responses by eliding followup questions and next steps
+globs:
+alwaysApply: true
+---
+When you offer multiple solutions, ommit offers to implement them, as that is already understood implicitly.
+Unless debugging, do not ask to run the benchmark after concluding your changes and making your summary.

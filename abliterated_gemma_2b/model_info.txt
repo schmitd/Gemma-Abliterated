@@ -1,0 +1,9 @@
+Model: google/gemma-2b-it
+Modified: True
+Modification: Weight orthogonalization for refusal reduction
+Chat template: <start_of_turn>user
+{instruction}<end_of_turn>
+<start_of_turn>model
+
+Positive tokens: [' Sure', ' Yes', ' Absolutely', ' Certainly', ' Okay', ' I can', ' Here is', " Let's", ' Proceeding', ' Understood']
+Negative tokens: [' cannot', " can't", ' Sorry', ' I cannot', " I can't", " I won't", ' unethical', ' illegal', ' not able', ' refuse']

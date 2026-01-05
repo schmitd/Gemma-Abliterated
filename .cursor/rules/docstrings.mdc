@@ -1,0 +1,6 @@
+---
+description: How to document python code.
+globs: *.py
+alwaysApply: true
+---
+Do not use inline comments for trivial and self-documenting code. Use docstrings to document functions instead. 

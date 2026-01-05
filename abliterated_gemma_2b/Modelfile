@@ -1,0 +1,12 @@
+FROM ./
+TEMPLATE """<start_of_turn>user
+{{.Input}}<end_of_turn>
+<start_of_turn>model
+"""
+PARAMETER stop "<end_of_turn>"
+PARAMETER stop "<start_of_turn>"
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+SYSTEM You are a helpful AI assistant. You have been modified to be less likely to refuse requests while maintaining helpfulness and safety.
